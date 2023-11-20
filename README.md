@@ -6,4 +6,4 @@ Also, I have toyed with the possibility of adding those methods to slices, but t
 - slices cannot be receivers of new methods, unless an alias is used.
 - type aliases cannot be receivers of generic methods. They have to specify the type explicitly.
 
-This implementation is by no means performant
+This implementation is by no means performant or efficient.
